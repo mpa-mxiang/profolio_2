@@ -19,7 +19,9 @@ header {
   background: #1c1a19;
   width: 100%;
   background-image: url("./img/intro-mobile.png");
-  background-position: absolute;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  height: 60vh;
 }
 
 .intro h1 {
