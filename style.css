@@ -9,9 +9,18 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 21px;
+}
+
 /* header  */
 header {
   background: #3c3a39;
+  width: 100%;
+  height: 11.2vh;
 }
 
 /* intro */
@@ -35,6 +44,8 @@ header {
 }
 
 .intro h2 {
+    display: flex;
+    align-items: center;
     color: #fff5e1;
 }
 
