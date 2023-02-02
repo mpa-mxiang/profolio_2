@@ -6,7 +6,6 @@
 
 body {
     margin: 0;
-    font-family: "Poppins", sans-serif;
 }
 
 ul {
@@ -26,12 +25,9 @@ header {
 
 header h1 {
     color: #fff;
-    width: 77px;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    line-height: 24px;
     display: flex;
-    flex-direction: row;
     gap: 222px;
     align-items: center;
 }
@@ -51,7 +47,6 @@ header h1 {
 #intro h1 {
   color: #ff6800;
   font-family: "Crete Round",sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
@@ -60,7 +55,6 @@ header h1 {
 }
 
 #intro h2 {
-    display: flex;
     color: #fff5e1;
     font-family: 'Roboto', sans-serif;
     align-self: center;
