@@ -15,6 +15,22 @@ ul {
     gap: 21px;
 }
 
+button {
+  background: #ff6b00;
+  color: #fff;
+  font-family: "inter", sans-serif;
+  padding: 12px;
+  width: 37%;
+  height: 12vh;
+  letter-spacing: 0.03em;
+  border-color: none;
+  font-weight: 700;
+  display: flex;
+  line-height: 24px;
+  align-items: center;
+  border: 0;
+}
+
 /* header  */
 header {
   background: #3c3a39;
@@ -82,10 +98,11 @@ header h1 {
   line-height: 52px;
 }
 
-#works #top-work {
+#top-work {
   display: flex;
   flex-direction: column;
   margin: 24px;
+  margin-bottom: 24px;
 }
 
 #top-work h1 {
@@ -93,6 +110,7 @@ header h1 {
   line-height: 44px;
   height: 5vh;
   color: #091e42;
+  margin-left: -2px;
 }
 
 #top-work p {
@@ -113,18 +131,70 @@ header h1 {
   padding: 10px 12px;
 }
 
-#top-work button {
-  background: #ff6b00;
-  color: #fff;
-  font-family: "inter", sans-serif;
-  padding: 12px;
-  width: 37%;
-  height: 12vh;
-  letter-spacing: 0.03em;
-  border-color: none;
-  font-weight: 700;
-  display: flex;
+#works #special,
+#works #normal {
+  position: relative;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+#works #special h1, 
+#works #normal h1 {
+  position: absolute;
+  top: 84px;
+  left: 16px;
+  color: white;
+  font-size: 24px;
+  width: 95%;
+  height: 81px;
+  font-family: 'Crete Round',sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+#works #special p, 
+#works #normal p {
+  position: absolute;
+  top: 180px;
+  left: 16px;
+  color: white;
+  font-size: 16px;
+  height: 87px;
+  font-family: 'Crete Round',sans-serif;
   line-height: 24px;
+}
+
+#works #special ul, 
+#works #normal ul {
+  position: absolute;
+  bottom: 50px;
+  left: 16px;
+  padding: 0;
+}
+
+#works #special ul li, 
+#works #normal ul li {
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  border: 0;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.24);
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+  line-height: 20px;
+}
+
+#works #special button, 
+#works #normal button {
+  position: absolute;
+  bottom: 4px;
+  right: 2px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 12px 113.5px;
 }
