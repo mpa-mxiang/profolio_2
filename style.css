@@ -23,12 +23,12 @@ button {
   width: 37%;
   height: 12vh;
   letter-spacing: 0.03em;
-  border-color: none;
   font-weight: 700;
   display: flex;
   line-height: 24px;
   align-items: center;
   border: 0;
+  margin-bottom: -22px;
 }
 
 /* header  */
@@ -96,6 +96,12 @@ header h1 {
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
+  align-self: center;
+}
+
+#works hr {
+  width: 327px;
+  border: 1px solid #212121;
 }
 
 #top-work {
@@ -110,7 +116,6 @@ header h1 {
   line-height: 44px;
   height: 5vh;
   color: #091e42;
-  margin-left: -2px;
 }
 
 #top-work p {
