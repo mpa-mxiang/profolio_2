@@ -31,6 +31,15 @@ button {
   margin-bottom: -22px;
 }
 
+hr {
+  width: 95%;
+  border: 1px solid #212121;
+}
+
+img {
+  width: 100%;
+}
+
 /* header  */
 header {
   background: #3c3a39;
@@ -97,11 +106,6 @@ header h1 {
   font-size: 40px;
   line-height: 52px;
   align-self: center;
-}
-
-#works hr {
-  width: 327px;
-  border: 1px solid #212121;
 }
 
 #top-work {
@@ -196,7 +200,6 @@ header h1 {
 #works #normal button {
   position: absolute;
   bottom: 4px;
-  right: 2px;
   width: 100%;
   display: flex;
   align-items: center;
