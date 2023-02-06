@@ -2,3 +2,47 @@
   background: #e5e5e5;
   width: 100%;
 }
+
+.contact h1 {
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 138%;
+  text-align: center;
+  padding: 24px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+  width: 100%;
+  align-items: center;
+}
+
+input[type="text"] {
+  border: solid 1px #DBD8D7;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+  font-family: 'Inter',sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+  width: 80%;
+}
+
+textarea {
+  color: #FBF8F7;
+  font-family: 'Inter',sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  width: 80%;
+  height: 27vh;
+}
+
+.contact button {
+  align-items: center;
+}
