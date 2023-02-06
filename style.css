@@ -275,10 +275,6 @@ header h1 {
   margin: 0;
 }
 
-.about .list:nth-child(2) h1 {
-  padding-left: 18vw;
-}
-
 .about .list:last-child h1 {
   padding-left: 34vw;
 }
