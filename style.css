@@ -220,14 +220,14 @@ header h1 {
   width: 100%;
 }
 
-.about #brief {
+.about .brief {
   background-image: url("./img/illustration-about-me-mobile.png");
   background-position: right bottom;
   background-repeat: no-repeat;
   height: 167vh;
 }
 
-.about #brief h1 {
+.about .brief h1 {
   font-family: 'Crete Round',sans-serif;
   font-weight: 400;
   font-size: 69px;
@@ -238,7 +238,7 @@ header h1 {
   padding: 0vw 9vw;
 }
 
-.about #brief p {
+.about .brief p {
   width: 327px;
   height: 148px;
   font-family: 'Inter',sans-serif;
@@ -250,7 +250,7 @@ header h1 {
   padding: 0vw 9vw;
 }
 
-.about #brief button {
+.about .brief button {
   margin-left: 2rem;
   width: 41vw;
   height: 13.8vh;
