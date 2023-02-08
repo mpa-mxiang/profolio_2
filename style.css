@@ -47,6 +47,9 @@ header {
   width: 100%;
   height: 11.2vh;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
 
 header h1 {
@@ -56,7 +59,11 @@ header h1 {
     display: flex;
     gap: 200px;
     align-items: center;
-    margin-left: 15px;
+    margin: 0;
+}
+
+header img {
+    height: 40px;
 }
 
 /* intro */
@@ -216,9 +223,8 @@ header h1 {
 /* about */
 .about {
   background: #1C1A19;
-  position: absolute;
-  width: 100%;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .about .brief {
@@ -254,7 +260,6 @@ header h1 {
 .about .brief button {
   margin-left: 1.75rem;
   width: 47vw;
-  height: 13.8vh;
   margin-top: 10vw;
 }
 
@@ -276,7 +281,7 @@ header h1 {
   margin: 0;
 }
 
-.about .list:nth-child(2) h1 {
+.about .list:nth-last-child(2) h1 {
   padding-left: 18vw;
 }
 
@@ -354,4 +359,10 @@ textarea {
 
 .contact button {
   width: 40%;
+}
+
+@media (max-width: 767px) {
+  .list {
+      width: 100%;
+  }
 }
