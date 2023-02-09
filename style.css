@@ -11,7 +11,6 @@ body {
 
 ul {
     display: flex;
-    flex-direction: row;
     list-style: none;
     gap: 21px;
 }
@@ -301,6 +300,10 @@ header img {
   margin-bottom: 10rem;
 }
 
+.about .list:last-child ul {
+  padding-left: 3.75rem;
+}
+
 .about .list ul li {
   color: #fff;
   font-family: 'Inter',sans-serif;
@@ -314,7 +317,7 @@ header img {
   width: 100%;
   padding-bottom: 11.2%;
   margin-top: -27px;
-
+  margin-bottom: 7.75rem;
 }
 
 .contact h1 {
@@ -361,8 +364,46 @@ textarea {
   width: 40%;
 }
 
-@media (max-width: 767px) {
-  .list {
-      width: 100%;
+/* footer */
+.footer hr {
+  border: 1px solid#dfe1e6;
+  height: 0.0625rem;
+}
+
+.footer ul {
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-inline-start: 0;
+}
+
+.footer img {
+  filter: grayscale(100%);
+}
+
+.ned {
+  border: 6px solid black;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  width: 35%;
+}
+
+@media (min-width: 426px) {
+  section.intro {
+    margin: 0 auto;
+    background-image: url("./img/Illustration-header.png");
+    background-position: right;
+  }
+
+  section.works {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  #top-work,
+  #special,
+  #normal {
+    width: 33.33%;
+    margin: 0 1rem;
   }
 }
