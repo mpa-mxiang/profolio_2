@@ -154,7 +154,7 @@ header img {
 .works #special h1,
 .works #normal h1 {
   position: absolute;
-  top: 84px;
+  top: 8.4%;
   left: 0.5rem;
   color: white;
   font-size: 24px;
@@ -168,10 +168,10 @@ header img {
 .works #special p,
 .works #normal p {
   position: absolute;
-  top: 180px;
+  top: 44.8%;
   left: 16px;
   color: white;
-  font-size: 16px;
+  font-size: 70%;
   height: 87px;
   font-family: 'Crete Round', sans-serif;
   line-height: 24px;
@@ -203,7 +203,7 @@ header img {
 .works #special button,
 .works #normal button {
   position: absolute;
-  bottom: 4px;
+  bottom: 5%;
   width: 100%;
   display: flex;
   align-items: center;
@@ -520,7 +520,8 @@ textarea {
   #special button {
     width: 50%;
     white-space: nowrap;
-    padding: 0.25rem 4.75rem;
+    padding: 0.2rem 4.75rem;
+    bottom: 10%;
   }
 
   #special h1,
@@ -532,4 +533,17 @@ textarea {
   .div-container #normal button {
     display: none;
   }
+
+  #normal h1 {
+    font-size: x-large;
+  }
+
+  #normal ul {
+    bottom: 4%;
+  }
+
+  #normal ul li {
+    padding: 6% 3%;
+  }
+
 }
