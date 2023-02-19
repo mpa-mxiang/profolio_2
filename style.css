@@ -153,8 +153,8 @@ header h1 {
 .works #special p,
 .works #normal p {
   position: absolute;
-  top: 44.8%;
-  left: 0.6em;
+  top: 38.8%;
+  left: 3.5em;
   color: white;
   font-size: 70%;
   font-family: 'Crete Round', sans-serif;
@@ -174,14 +174,14 @@ header h1 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 10px 12px;
+  padding: 0.5em 0.75em;
   background: rgba(255, 255, 255, 0.24);
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 0.75em;
   color: #fff;
-  line-height: 20px;
+  line-height: 2em;
 }
 
 .works #special button,
@@ -198,7 +198,7 @@ header h1 {
 }
 
 .works #normal:last-child {
-  margin-bottom: 120px;
+  margin-bottom: 12em;
 }
 
 /* about */
@@ -212,7 +212,6 @@ header h1 {
   background-image: url("./img/illustration-about-me-mobile.png");
   background-position: right bottom;
   background-repeat: no-repeat;
-  height: 150vh;
 }
 
 .about .brief h1 {
@@ -227,21 +226,20 @@ header h1 {
 }
 
 .about .brief p {
-  width: 327px;
-  height: 148px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1em;
+  line-height: 1.5em;
   color: #F4F5F7;
-  padding: 0vw 9vw;
+  padding: 2.75em 2em;
 }
 
 .about .brief button {
-  margin-left: 1.75rem;
-  width: 47vw;
-  margin-top: 10vw;
+  margin-left: 2.1em;
+  width: 48%;
+  margin-top: 6em;
+  white-space: nowrap;
 }
 
 .about hr {
@@ -252,22 +250,21 @@ header h1 {
   font-family: 'InaiMathi', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 138%;
+  font-size: 2.2em;
   display: flex;
   align-items: center;
   color: #fff;
-  gap: 12px;
-  padding: 74.77px;
+  gap: 0.5em;
+  padding: 1.75em;
   margin: 0;
 }
 
 .about .list:nth-last-child(2) h1 {
-  padding-left: 18vw;
+  padding-left: 1.5em;
 }
 
 .about .list:last-child h1 {
-  padding-left: 34vw;
+  padding-left: 3em;
 }
 
 .about .list img {
@@ -279,11 +276,11 @@ header h1 {
   align-items: center;
   margin: 0;
   padding: 0;
-  margin-bottom: 10rem;
+  margin-bottom: 10em;
 }
 
 .about .list:last-child ul {
-  padding-left: 3.75rem;
+  padding-left: 3.75ßem;
 }
 
 .about .list ul li {
@@ -298,24 +295,24 @@ header h1 {
   background: #e5e5e5;
   width: 100%;
   padding-bottom: 11.2%;
-  margin-top: -27px;
-  margin-bottom: 7.75rem;
+  margin-top: -2.7em;
+  margin-bottom: 7.75em;
 }
 
 .contact h1 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 138%;
+  font-size: 2.2em;
+  line-height: 1.38em;
   text-align: center;
-  padding: 24px;
+  padding: 0.4em;
 }
 
 .contact form {
   display: flex;
   flex-direction: column;
-  gap: 39px;
+  gap: 3.9em;
   width: 100%;
   align-items: center;
 }
@@ -336,26 +333,20 @@ input[type="text"] {
 textarea {
   color: #FBF8F7;
   font-family: 'Inter', sans-serif;
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 1em;
+  line-height: 2.4em;
   width: 80%;
   height: 27vh;
-}
-
-.contact button {
-  width: 40%;
 }
 
 /* footer */
 .footer hr {
   border: 1px solid#dfe1e6;
-  height: 0.0625rem;
 }
 
 .footer ul {
   justify-content: center;
   align-items: center;
-  height: 100%;
   padding-inline-start: 0;
 }
 
@@ -365,8 +356,6 @@ textarea {
 
 .ned {
   border: 6px solid black;
-  margin-bottom: 5px;
-  border-radius: 5px;
   width: 35%;
 }
 
@@ -389,12 +378,10 @@ textarea {
   header li {
     display: inline-block;
     font-family: 'Inter', sans-serif;
-    margin-left: 20px;
   }
 
   header .header-desktop img {
-    width: 24px;
-    height: 24px;
+    width: 1.4em;
   }
 
   section.intro {
@@ -402,25 +389,25 @@ textarea {
     background-image: url("./img/Illustration-header.png");
     background-position: right 50%;
     background-size: 40% auto;
-    height: 55em;
   }
 
   .intro h1 {
     text-align: left;
-    padding-top: 192px;
+    padding-top: 1.92em;
     width: 100%;
-    padding-left: 12.75%;
+    padding-left: 3.6em;
     font-size: xx-large;
   }
 
   .intro h2 {
     width: 74.75%;
     font-size: x-large;
+    padding-left: 0.6em;
   }
 
   .intro p {
     width: 50%;
-    padding-left: 9.75%;
+    padding-left: 3.6em;
     font-size: larger;
   }
 
@@ -435,14 +422,13 @@ textarea {
 
   section.works {
     margin: 0 auto;
-    height: 309vh;
   }
 
   #top-work,
   #special,
   #normal {
     width: 33.33%;
-    margin: 0 1rem;
+    margin: 0 1em;
   }
 
   .works-desktop {
@@ -470,7 +456,7 @@ textarea {
   }
   
   .img-container {
-    padding-left: 23.1%;
+    padding-left: 0.7em;
   }
 
   .img-container img {
@@ -478,13 +464,8 @@ textarea {
   }
   
   .text-container {
-    padding-left: 8.4%;
-    margin-top: -12.6%;
-    margin-bottom: 12.6%;
-  }
-
-  .text-container h1 {
-    margin-left: -0.6%;
+    padding-left: 0.84em;
+    margin-top: -1.74em;
   }
 
   .div-container {
@@ -504,9 +485,7 @@ textarea {
   }
 
   #special button {
-    width: 50%;
-    white-space: nowrap;
-    padding: 0.2rem 4.75rem;
+    padding: 1em 4.75rem;
     bottom: 10%;
   }
 
