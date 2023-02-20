@@ -500,7 +500,8 @@ textarea {
   }
 
   #normal h1 {
-    font-size: x-large;
+    font-size: 1.7em;
+    width: 80%;
   }
 
   #normal ul {
