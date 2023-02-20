@@ -232,13 +232,14 @@ header h1 {
   line-height: 1.5em;
   color: #F4F5F7;
   padding: 2.75em 2em;
+  margin: 1.75em;
 }
 
 .about .brief button {
-  margin-left: 2.1em;
+  margin-left: 4.1em;
   width: 48%;
-  margin-top: 6em;
   white-space: nowrap;
+  justify-content: center;
 }
 
 .about hr {
@@ -390,24 +391,20 @@ textarea {
     background-size: 40% auto;
   }
 
+  .intro .intro-text {
+    width: 55%;
+  }
   .intro h1 {
-    text-align: left;
     padding-top: 1.92em;
-    width: 100%;
     padding-left: 3.6em;
-    font-size: xx-large;
   }
 
   .intro h2 {
-    width: 74.75%;
-    font-size: x-large;
-    padding-left: 0.6em;
+    padding-left: 7.2em;
   }
 
   .intro p {
-    width: 50%;
-    padding-left: 3.6em;
-    font-size: larger;
+    padding-left: 8.6em;
   }
 
   .intro ul {
@@ -416,7 +413,7 @@ textarea {
   }
 
   .intro ul li img {
-    width: 2.5%;
+    width: 1.5%;
   }
 
   section.works {
@@ -524,6 +521,34 @@ textarea {
     background-image: url("./img/about-me-desktop.png");
     background-position: right 50%;
     background-size: 40% auto;
+    width: 100%;
   }
+
+  .about .about-text {
+    width: 55%;
+  }
+
+  .about .brief p {
+    font-size: 1.45em;
+  }
+
+  .about .brief button {
+    margin-left: 6.2em;
+    margin-top: 1em;
+  }
+
+  .about .list-div {
+    display: flex;
+    padding: 1.5em;
+  }
+
+  .about .list {
+    width: 25.33%;
+  }
+
+  .about .list:last-child h1 {
+    padding-left: 2em;
+}
+
 
 }
