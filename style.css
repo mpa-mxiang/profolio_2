@@ -360,7 +360,7 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
-    
+
   header .header-mobile {
     display: none;
   }
@@ -394,6 +394,7 @@ textarea {
   .intro .intro-text {
     width: 55%;
   }
+
   .intro h1 {
     padding-top: 1.92em;
     padding-left: 3.6em;
@@ -431,12 +432,14 @@ textarea {
     display: flex;
     align-items: center;
   }
+
   .works-desktop h1 {
     display: inline-block;
     width: fit-content;
     margin-left: 13.35%;
     white-space: nowrap;
   }
+
   .works-desktop hr {
     display: inline-block;
     width: 100%;
@@ -450,7 +453,7 @@ textarea {
     flex-direction: row;
     justify-content: space-between;
   }
-  
+
   .img-container {
     padding-left: 0.7em;
   }
@@ -458,7 +461,7 @@ textarea {
   .img-container img {
     width: 47.5vw;
   }
-  
+
   .text-container {
     padding-left: 0.84em;
     margin-top: -1.74em;
@@ -471,7 +474,7 @@ textarea {
     align-self: center;
   }
 
-  #special, 
+  #special,
   #normal {
     width: 14rem;
   }
@@ -486,7 +489,7 @@ textarea {
   }
 
   #special h1,
-  #special p, 
+  #special p,
   #special ul {
     display: none;
   }
@@ -509,7 +512,7 @@ textarea {
 
   #normal ul {
     left: 1.6em;
-    bottom: 1em;    
+    bottom: 1em;
   }
 
   #normal ul li {
@@ -535,6 +538,7 @@ textarea {
   .about .brief button {
     margin-left: 6.2em;
     margin-top: 1em;
+    padding: 2%;
   }
 
   .about .list-div {
@@ -548,7 +552,7 @@ textarea {
 
   .about .list:last-child h1 {
     padding-left: 2em;
-}
+  }
 
 
 }
