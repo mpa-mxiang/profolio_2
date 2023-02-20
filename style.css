@@ -12,7 +12,7 @@ body {
 ul {
   display: flex;
   list-style: none;
-  gap: 9%;
+  gap: 1em;
 }
 
 button {
@@ -41,7 +41,7 @@ img {
 header {
   background: #3c3a39;
   width: 100%;
-  padding: 4%;
+  padding: 2em;
 }
 
 header h1 {
@@ -147,7 +147,6 @@ header h1 {
   color: white;
   width: 95%;
   font-family: 'Crete Round', sans-serif;
-  font-size: 2.2em;
 }
 
 .works #special p,
@@ -500,16 +499,31 @@ textarea {
   }
 
   #normal h1 {
-    font-size: 1.7em;
-    width: 80%;
+    font-size: 1.8em;
+  }
+
+  #normal p {
+    top: 36%;
+    font-size: 0.8em;
+    left: 2.1em;
+    line-height: 1.8em;
+    width: 85%;
   }
 
   #normal ul {
-    bottom: 4%;
+    left: 1.6em;
+    bottom: 1em;    
   }
 
   #normal ul li {
     padding: 6% 3%;
+  }
+
+  .about .brief {
+    margin: 0 auto;
+    background-image: url("./img/about-me-desktop.png");
+    background-position: right 50%;
+    background-size: 40% auto;
   }
 
 }
