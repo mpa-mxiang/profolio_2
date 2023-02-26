@@ -7,7 +7,6 @@
 body {
   margin: 0;
   width: 100%;
-  max-width: 1440px;
   overflow-x: hidden;
 }
 
@@ -322,6 +321,10 @@ header h1 {
   align-items: center;
 }
 
+.input-div {
+  display: none;
+}
+
 input[type="text"] {
   border: solid 1px #DBD8D7;
   border-top: none;
@@ -547,5 +550,29 @@ textarea {
     padding-left: 2em;
   }
 
+  .contact-div {
+    display: flex;
+  }
+
+  .text-div {
+    width: 45.5%;
+  }
+
+  .form-div {
+    width: 54.5%;
+    padding: 2rem;
+  }
+
+  #name {
+    display: none;
+  }
+
+  .input-div {
+    display: flex;
+  }
+
+  .ned {
+    display: none;
+  }
 
 }
