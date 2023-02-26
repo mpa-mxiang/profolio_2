@@ -7,6 +7,8 @@
 body {
   margin: 0;
   width: 100%;
+  max-width: 1440px;
+  overflow-x: hidden;
 }
 
 ul {
@@ -66,6 +68,10 @@ header h1 {
   flex-direction: column;
 }
 
+.intro-text {
+  padding: 2rem;
+}
+
 .intro h1 {
   color: #ff6800;
   font-family: "Crete Round", sans-serif;
@@ -83,7 +89,6 @@ header h1 {
 .intro p {
   color: #fff;
   font-family: "Poppins", sans-serif;
-  margin: 1.2em 2.3em;
 }
 
 /* works */
@@ -191,7 +196,7 @@ header h1 {
   display: flex;
   align-items: center;
   text-align: center;
-  padding: 1.2rem 7.75rem;
+  padding: 1.2em 10.75em;
   white-space: nowrap;
   margin-bottom: -1.8em;
 }
@@ -392,20 +397,8 @@ textarea {
   }
 
   .intro .intro-text {
-    width: 55%;
-  }
-
-  .intro h1 {
-    padding-top: 1.92em;
-    padding-left: 3.6em;
-  }
-
-  .intro h2 {
-    padding-left: 7.2em;
-  }
-
-  .intro p {
-    padding-left: 8.6em;
+    width: 60%;
+    padding: 5rem;
   }
 
   .intro ul {
