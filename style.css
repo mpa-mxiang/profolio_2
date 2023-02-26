@@ -5,9 +5,10 @@
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   width: 100%;
   overflow-x: hidden;
+  max-width: 100%;
 }
 
 ul {
@@ -144,31 +145,31 @@ header h1 {
   margin-bottom: 2.4em;
 }
 
-.works #special h1,
-.works #normal h1 {
+.works #special .div-text, 
+.works #normal .div-text {
   position: absolute;
   top: 8.4%;
+  width: 80%;
+}
+
+.works #special h1,
+.works #normal h1 {
   color: white;
-  width: 95%;
   font-family: 'Crete Round', sans-serif;
 }
 
 .works #special p,
 .works #normal p {
-  position: absolute;
-  top: 38.8%;
-  left: 3.5em;
   color: white;
   font-size: 70%;
   font-family: 'Crete Round', sans-serif;
   line-height: 2.4em;
+  margin-left: 3em;
 }
 
 .works #special ul,
 .works #normal ul {
-  position: absolute;
-  bottom: 3em;
-  left: 2.6em;
+  margin-left: 2em;
   padding: 0;
 }
 
@@ -195,7 +196,7 @@ header h1 {
   display: flex;
   align-items: center;
   text-align: center;
-  padding: 1.2em 10.75em;
+  padding: 1.2em 9em;
   white-space: nowrap;
   margin-bottom: -1.8em;
 }
@@ -262,11 +263,6 @@ header h1 {
   padding: 1.75em;
   margin: 0;
 }
-
-.about .list:nth-last-child(2) h1 {
-  padding-left: 1.5em;
-}
-
 .about .list:last-child h1 {
   padding-left: 3em;
 }
@@ -368,6 +364,10 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
+
+  body {
+    width: 100%;
+  }
 
   header .header-mobile {
     display: none;
@@ -479,8 +479,8 @@ textarea {
     content: url("./img/spcial-work.png");
   }
 
-  #special button {
-    padding: 1em 4.75rem;
+  .works #special button {
+    padding: 1.2em 5rem;
     bottom: 10%;
   }
 
@@ -495,20 +495,22 @@ textarea {
   }
 
   #normal h1 {
-    font-size: 1.8em;
+    font-size: 1.38em;
   }
 
-  #normal p {
-    top: 36%;
-    font-size: 0.8em;
-    left: 2.1em;
-    line-height: 1.8em;
-    width: 85%;
+  .works #special .div-text, 
+  .works #normal .div-text {
+    top: 2.4%;
   }
 
-  #normal ul {
-    left: 1.6em;
-    bottom: 1em;
+  .works #normal p {
+    font-size: 66%;
+    margin-left: 2.2em;
+  }
+
+  .works #normal ul {
+    margin-left: 1.5em;
+    margin-top: 0em;
   }
 
   #normal ul li {
