@@ -295,8 +295,6 @@ header h1 {
   background: #e5e5e5;
   width: 100%;
   padding-bottom: 11.2%;
-  margin-top: -2.7em;
-  margin-bottom: 7.75em;
 }
 
 .contact h1 {
@@ -571,6 +569,15 @@ textarea {
 
   .input-div {
     display: flex;
+    width: 80%;
+    gap: 1em;
+  }
+
+  .form-div button {
+    padding: 2em 3em;
+    white-space: nowrap;
+    margin-right: 34.5%;
+
   }
 
   .ned {
