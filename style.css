@@ -4,11 +4,12 @@
   box-sizing: border-box;
 }
 
-body {
+html, body {
   margin: 0 auto;
   width: 100%;
   overflow-x: hidden;
   max-width: 100%;
+  position: relative;
 }
 
 ul {
@@ -43,7 +44,7 @@ img {
 header {
   background: #3c3a39;
   width: 100%;
-  padding: 2em;
+  padding: 6%;
 }
 
 header h1 {
