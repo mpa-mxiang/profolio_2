@@ -240,14 +240,14 @@ header ul {
   font-size: 6vw;
   line-height: 1.5em;
   color: #F4F5F7;
-  padding: 2.75em 2em;
   margin: 1.75em;
 }
 
 .about .brief button {
-  margin-left: 18vw;
-  padding: 3vh 6vw;
+  margin-left: 9vw;
+  padding: 3vh 8.1vw;
   margin-bottom: 24vw;
+  font-size: 3.6vw;
 }
 
 .about hr {
@@ -345,6 +345,10 @@ textarea {
 }
 
 /* footer */
+.footer {
+  margin-top: 24vw;
+}
+
 .footer hr {
   border: 1px solid#dfe1e6;
 }
@@ -512,7 +516,7 @@ textarea {
 
   .works #special button {
     padding: 2.1vh 9vw;
-    bottom: 3vw;
+    bottom: 2.975vw;
     font-size: 1.5vw;
   }
 
@@ -579,7 +583,7 @@ textarea {
 
   .about .brief button {
     margin-left: 9vw;
-    padding: 1.5vw;
+    padding: 3vh 6vw;
     font-size: 1.5vw;
     margin-bottom: 3vw;
   }
