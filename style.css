@@ -49,7 +49,7 @@ header {
 header h1 {
   color: #fff;
   font-family: 'Roboto', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.2em;
   display: flex;
   gap: 54vw;
   align-items: center;
@@ -93,7 +93,6 @@ header ul {
 .intro p {
   color: #fff;
   font-family: "Poppins", sans-serif;
-  font-size: 2.1vw;
 }
 
 /* works */
@@ -227,19 +226,18 @@ header ul {
 .about .brief h1 {
   font-family: 'Crete Round', sans-serif;
   font-weight: 400;
-  font-size: 60px;
+  font-size: 18vw;
   line-height: 88px;
   letter-spacing: 0.37px;
   color: #ff6b00;
   text-align: center;
-  padding: 0vh 9vw;
 }
 
 .about .brief p {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1em;
+  font-size: 6vw;
   line-height: 1.5em;
   color: #F4F5F7;
   padding: 2.75em 2em;
@@ -247,10 +245,9 @@ header ul {
 }
 
 .about .brief button {
-  margin-left: 4.1em;
-  width: 48%;
-  white-space: nowrap;
-  justify-content: center;
+  margin-left: 18vw;
+  padding: 3vh 6vw;
+  margin-bottom: 24vw;
 }
 
 .about hr {
@@ -419,6 +416,10 @@ textarea {
 
   .intro h2 {
     font-size: 3.6vw;
+  }
+
+  .intro p {
+    font-size: 2.1vw;
   }
 
   .intro ul {
