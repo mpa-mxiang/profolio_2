@@ -426,6 +426,7 @@ textarea {
   .intro ul {
     flex-direction: column;
     margin-top: -36vw;
+    gap: 1.5vw;
   }
 
   .intro ul li img {
