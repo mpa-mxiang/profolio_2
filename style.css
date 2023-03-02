@@ -274,7 +274,7 @@ header ul {
 }
 
 .about .list img {
-  width: fit-content;
+  width: unset;
 }
 
 .about .list ul {
@@ -310,7 +310,7 @@ header ul {
   font-size: 2.2em;
   line-height: 1.38em;
   text-align: center;
-  padding: 0.4em;
+  padding: 3vw;
 }
 
 .contact form {
@@ -573,22 +573,39 @@ textarea {
   }
 
   .about .brief button {
-    margin-left: 11.1vw;
+    margin-left: 9vw;
     padding: 1.5vw;
     font-size: 1.5vw;
+    margin-bottom: 3vw;
   }
 
   .about .list-div {
     display: flex;
-    padding: 1.5em;
   }
 
   .about .list {
-    width: 25.33%;
+    width: 33vw;
+  }
+
+  .about .list h1 {
+    font-size: 4.5vw;
+    padding-left: 7.2vw;
   }
 
   .about .list:last-child h1 {
-    padding-left: 2em;
+    padding-left: 9vw;
+  }
+
+  .about .list ul {
+    padding-left: 6vw;
+  }
+
+  .about .list ul li {
+    font-size: 4.2vw;
+  }
+
+  .about .list:last-child ul {
+    padding-left: 0;
   }
 
   .contact-div {
@@ -599,9 +616,13 @@ textarea {
     width: 45.5%;
   }
 
+  .text-div h1 {
+    font-size: 3vw;
+  }
+
   .form-div {
     width: 54.5%;
-    padding: 2rem;
+    padding: 3vw;
   }
 
   #name {
@@ -613,12 +634,16 @@ textarea {
     width: 80%;
     gap: 1em;
   }
+  
+  input[type="text"], 
+  textarea {
+    font-size: 1.8vw;
+  }
 
   .form-div button {
-    padding: 2em 3em;
-    white-space: nowrap;
+    padding: 3vh 6vw;
     margin-right: 34.5%;
-
+    font-size: 1.5vw;
   }
 
   .ned {
