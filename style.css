@@ -377,6 +377,10 @@ textarea {
     display: none;
   }
 
+  header h1 {
+    font-size: 1.5vw;
+  }
+
   header h1 .header-desktop {
     display: flex;
     justify-content: flex-end;
